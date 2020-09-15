@@ -39,7 +39,7 @@ class RefundsTest extends TestCase
      * @magentoConfigFixture default/mirakl_seller_sales/order/auto_create_invoice 1
      * @magentoConfigFixture default/mirakl_seller_sales/order/auto_create_shipment 0
      *
-     * @magentoDataFixture ../../../../vendor/mirakl/connector-magento2-seller/Sales/Test/Integration/Model/Synchronize/_fixtures/connection.php
+     * @magentoDataFixture ../../../../vendor/kluseg/connector-magento2-seller/Sales/Test/Integration/Model/Synchronize/_fixtures/connection.php
      */
     public function testSynchronize()
     {

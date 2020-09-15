@@ -20,7 +20,7 @@ class ConnectionTest extends TestCase
     /**
      * @magentoDbIsolation enabled
      *
-     * @magentoDataFixture ../../../../vendor/mirakl/connector-magento2-seller/Sales/Test/Integration/Helper/Loader/_fixtures/connection.php
+     * @magentoDataFixture ../../../../vendor/kluseg/connector-magento2-seller/Sales/Test/Integration/Helper/Loader/_fixtures/connection.php
      */
     public function testGetCurrentConnection()
     {
@@ -30,7 +30,7 @@ class ConnectionTest extends TestCase
     /**
      * @magentoDbIsolation enabled
      *
-     * @magentoDataFixture ../../../../vendor/mirakl/connector-magento2-seller/Sales/Test/Integration/Helper/Loader/_fixtures/connection.php
+     * @magentoDataFixture ../../../../vendor/kluseg/connector-magento2-seller/Sales/Test/Integration/Helper/Loader/_fixtures/connection.php
      */
     public function testGetConnections()
     {

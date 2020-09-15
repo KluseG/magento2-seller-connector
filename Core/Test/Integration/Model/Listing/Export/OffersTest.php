@@ -36,7 +36,7 @@ class OffersTest extends TestCase
      * @param   array   $productIds
      * @param   array   $expectedResult
      * @dataProvider getTestExportDataProvider
-     * @magentoDataFixture ../../../../vendor/mirakl/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_with_special_price.php
+     * @magentoDataFixture ../../../../vendor/kluseg/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_with_special_price.php
      * @magentoDbIsolation enabled
      */
     public function testExport($productIds, $expectedResult)
@@ -112,7 +112,7 @@ class OffersTest extends TestCase
      * @param   array   $productIds
      * @param   array   $expectedResult
      * @dataProvider getTestExportWithCustomPriceFieldDataProvider
-     * @magentoDataFixture ../../../../vendor/mirakl/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_with_custom_price.php
+     * @magentoDataFixture ../../../../vendor/kluseg/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_with_custom_price.php
      * @magentoDbIsolation enabled
      */
     public function testExportWithCustomPriceField($productIds, $expectedResult)
@@ -235,7 +235,7 @@ class OffersTest extends TestCase
      * @param   array   $productIds
      * @param   array   $expectedResult
      * @dataProvider getTestExportWithOrderConditionConfigurationDataProvider
-     * @magentoDataFixture ../../../../vendor/mirakl/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/wholesale.php
+     * @magentoDataFixture ../../../../vendor/kluseg/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/wholesale.php
      * @magentoConfigFixture current_store cataloginventory/item_options/enable_qty_increments 1
      * @magentoConfigFixture current_store cataloginventory/item_options/qty_increments 2
      * @magentoConfigFixture current_store cataloginventory/item_options/min_sale_qty [2]

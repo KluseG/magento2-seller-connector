@@ -90,7 +90,7 @@ class Data extends AbstractHelper
             $file = BP . $ds . 'vendor' . $ds . 'composer' . $ds . 'installed.json';
             if (file_exists($file)) {
                 preg_match(
-                    '#"mirakl/connector-magento2-seller",\n\s+"version":\s+"(\d+\.\d+\.\d+-?.*)"#',
+                    '#"kluseg/connector-magento2-seller",\n\s+"version":\s+"(\d+\.\d+\.\d+-?.*)"#',
                     file_get_contents($file),
                     $matches
                 );

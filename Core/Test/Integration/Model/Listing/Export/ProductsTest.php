@@ -32,7 +32,7 @@ class ProductsTest extends TestCase
      * @param   array   $productIds
      * @param   array   $expectedResult
      * @dataProvider getTestExportDataProvider
-     * @magentoDataFixture ../../../../vendor/mirakl/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_with_different_parent.php
+     * @magentoDataFixture ../../../../vendor/kluseg/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_with_different_parent.php
      * @magentoConfigFixture current_store web/unsecure/base_url http://foobar.com/
      * @magentoConfigFixture current_store mirakl_seller_core/listing/nb_image_exported 1
      * @magentoDbIsolation enabled
@@ -79,7 +79,7 @@ class ProductsTest extends TestCase
      * @param   array   $variantsAttributes
      * @param   array   $expectedResult
      * @dataProvider getTestExportWithVariantsAttributesDataProvider
-     * @magentoDataFixture ../../../../vendor/mirakl/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_with_different_parent.php
+     * @magentoDataFixture ../../../../vendor/kluseg/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_with_different_parent.php
      * @magentoConfigFixture current_store web/unsecure/base_url http://foobar.com/
      * @magentoConfigFixture current_store mirakl_seller_core/listing/nb_image_exported 1
      * @magentoDbIsolation enabled
@@ -129,7 +129,7 @@ class ProductsTest extends TestCase
      * @param   array   $exportableAttributes
      * @param   array   $expectedResult
      * @dataProvider getTestExportWithExportableAttributesDataProvider
-     * @magentoDataFixture ../../../../vendor/mirakl/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_with_different_parent.php
+     * @magentoDataFixture ../../../../vendor/kluseg/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_with_different_parent.php
      * @magentoConfigFixture current_store web/unsecure/base_url http://foobar.com/
      * @magentoConfigFixture current_store mirakl_seller_core/listing/nb_image_exported 1
      * @magentoDbIsolation enabled

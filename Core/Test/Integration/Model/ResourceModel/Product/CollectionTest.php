@@ -191,7 +191,7 @@ class CollectionTest extends TestCase
      * @param   array   $productIds
      * @param   array   $expectedItems
      * @dataProvider getTestAddTierPricesToSelectDataProvider
-     * @magentoDataFixture ../../../../vendor/mirakl/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_with_special_price.php
+     * @magentoDataFixture ../../../../vendor/kluseg/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_with_special_price.php
      * @magentoDbIsolation enabled
      */
     public function testAddTierPricesToSelect($websiteId, $productIds, $expectedItems)
@@ -305,7 +305,7 @@ class CollectionTest extends TestCase
      * @param   bool    $fallbackToParent
      * @param   array   $expectedItems
      * @dataProvider getTestAddCategoryIdsDataProvider
-     * @magentoDataFixture ../../../../vendor/mirakl/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_categories.php
+     * @magentoDataFixture ../../../../vendor/kluseg/connector-magento2-seller/Core/Test/Integration/Model/_fixtures/products_categories.php
      * @magentoDbIsolation enabled
      */
     public function testAddCategoryIds($productIds, $fallbackToParent, $expectedItems)
