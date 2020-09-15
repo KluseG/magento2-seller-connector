@@ -97,7 +97,7 @@ class Order
     $this->salesHelper       = $salesHelper;
     $this->skipQtyCheckFlag  = $skipQtyCheckFlag;
     $this->objectManager     = $objectManager;
-    $this->customerEmail     = $customerEmail;
+    $this->customerEmail     = $customerEmail ?? 'guest@do-not-use.com';
   }
 
   /**
