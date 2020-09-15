@@ -109,9 +109,6 @@ class Order
    */
   public function create(ShopOrder $miraklOrder, $store = null)
   {
-    print('<pre>' . print_r($miraklOrder, true) . '</pre>');
-    die();
-
     $store = $this->storeManager->getStore($store);
     if ($store->getId() == \Magento\Store\Model\Store::DEFAULT_STORE_ID) {
       $store = $this->storeManager->getDefaultStoreView();
