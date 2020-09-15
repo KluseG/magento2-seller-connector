@@ -64,9 +64,6 @@ class View extends Template
     $this->miraklOrderLoader = $miraklOrderLoader;
     $this->orderHelper       = $orderHelper;
     $this->connectionHelper  = $connectionHelper;
-
-    print('<pre>' . print_r($this->getMiraklOrder(), true) . '</pre>');
-    die();
   }
 
   /**
